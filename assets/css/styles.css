@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@400;500;700&family=Roboto:wght@700&display=swap');
+
+:root{
+    /* COLORS */
+    --body-color: #FFFFFF;
+
+    --nav-color: #475C46;
+    --nav-line-color:#000000;
+    --title-color: #085C11E8;
+    --description-color: #141E15;
+    --btn-bg-color:#0D4512;
+    --review-desription-color: #555555;
+    --description-light-color:background: #555555;
+    /* FONT Family*/
+    --first-font:"Poppins", sans-serif;
+    --second-font: "Roboto", sans-serif;
+    --third-font: "Inter", sans-serif;
+
+    /* FONTWEIGHT */
+    --font-weight-bold:700;
+    --font-weight-semi-bold:600;
+    --font-weight-medium:500;
+    --font-weight-regular:400;  
+
+
+    /* FONT SIZE */
+    --title-fz:6.875rem;
+    --small-title-fz:2.75rem;
+    --nav-fz:2.5rem;
+    --descrioption-fz:1.5rem;    
+    --small-description-fz:1.25rem;
+}
+/* Responsive typography */
+@media screen and (max-width: 1024px) {
+    :root {
+        --title-fz:3.5rem;
+        --small-title-fz:1.875rem;
+        --nav-fz:1.5rem;
+        --descrioption-fz:1.125rem;
+        --small-description-fz:0.875rem;
+    }
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--body-color);
+    font-family: var(--first-font);
+}

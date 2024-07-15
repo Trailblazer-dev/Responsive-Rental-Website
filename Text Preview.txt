@@ -1,0 +1,101 @@
+
+
+.nav__logo
+    RENT<span>HOMES</span>
+
+
+.home__title
+    Your <br>
+    Rental Journey Begins Here
+
+.home__description
+    We Make Finding Rentals Easy, Effortless Search, Endless Choices
+
+.home__buttons
+ .home__button-1
+    Rent Now
+ .home__button-2
+    Rent Your Place
+
+.about__title
+    Begin <br>
+    your awesome journey
+
+.about__description
+    <p>Looking for the perfect home to rent? Our user-friendly house rental website makes your search a breeze.<p>
+    <p>Browse through a diverse range of listings,
+    From cozy apartments to spacious family houses.</p>
+<br>
+    <p>With detailed descriptions, vivid photos, and handy filters, finding your ideal rental is just a click away.</p> 
+
+.about__button
+    Continue
+
+
+.services__title
+    See Our Services
+
+.services__description
+    We Make Finding Rentals Easy, Effortless Search, Endless Choices
+
+.services__card_title
+    Responsive
+    Green
+    Security
+
+.services__card_description
+    Our commitment to being responsive means that your concerns and efficient.
+
+    Experience the convenience of our responsive platform, ensuring swift communication.
+
+    Ensuring swift communication and quick solutions for all your rental needs.
+
+
+.reveiws__title
+    What Customers Say About Our Services
+
+.reveiw__description
+    We Make Finding Rentals Easy, Effortless Search, Endless Choices
+
+.review__card__title
+    David Anderson
+    Alex Mitchell
+    Ryan Bennett
+
+.review__card__description
+    “I loved the experience, renting a home was an pleasure. From the communication was seamless and professional”.
+
+    “It was an Amazing Experience, the attention to detail, personalized approach made the entire process stress-free”.
+
+    “Our experience was so good with renting services exceeded all expectations. Demonstrated a deep understanding”.
+
+
+
+.contact__description
+    The best and easiest way to rent homes.
+
+
+.contact__title
+    Useful links
+    Main Menu
+    Contact Us
+
+.contact__useful_list
+    About us
+    Events
+    Blogs
+    FAQ
+
+.contact__menu_list
+    Home
+    Offers
+    Menus
+    Reservation
+
+.contact__address
+    example@email.com
+    +64 958 248 966
+
+
+.footer__copy
+    &copy; Copyright       2023 Dscode | All rights reserved
