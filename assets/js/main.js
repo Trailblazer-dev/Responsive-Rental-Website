@@ -17,15 +17,15 @@ const swiper = new Swiper(".services__content", {
   direction: "horizontal",
   grabCursor: true,
   loop: true,
-  //   centeredSlides: true,
-  slidesPerView: "auto",
+  // centeredSlides: true,
+  // slidesPerView: 1,
   //If we need pagination
   pagination: {
     el: ".swiper-pagination",
     dynamicBullets: true,
   },
   breakpoints: {
-    540: {
+    320: {
       slidesPerView: 1,
       spaceBetween: 15,
     },
