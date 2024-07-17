@@ -12,7 +12,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- SWIPER -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
     <!-- logo -->
     <link
       rel="shortcut icon"
@@ -124,24 +124,54 @@
       </section>
       <section class="services" id="services">
         <div class="services__container">
-          <div class="services__data"></div>
-          <div class="services__content">
-            <div class="services__box">
-              <div class="services__card"></div>
-              <div class="services__card"></div>
-              <div class="services__card"></div>
+          <div class="services__data">
+            <h2 class="services__title">See Our Services</h2>
+            <p class="services__description">We Make Finding Rentals Easy, Effortless Search, Endless Choices</p>
+          </div>
+          <div class="services__content swiper">
+            <div class="services__box   swiper-wrapper ">
+              <div class="services__card swiper-slide">
+                <div class="services__card-img check">
+                    <i class="ri-check-line"></i>
+                </div>
+                <div class="services__card-data">
+                    <h2 class="services__card-title">Responsive</h2>
+                    <p class="services__card-description">Our commitment to being responsive means that your concerns and efficient.</p>
+                </div>
+              </div>
+              <div class="services__card swiper-slide">
+                <div class="services__card-img leaf">
+                    <i class="ri-leaf-fill"></i>
+                </div>
+                <div class="services__card-data">
+                    <h2 class="services__card-title">Green</h2>
+                    <p class="services__card-description">Experience the convenience of our responsive platform, ensuring swift communication.</p>
+                </div>
+              </div>
+              <div class="services__card swiper-slide">
+                <div class="services__card-img padlock">
+                    <i class="ri-lock-2-fill"></i>
+                </div>
+                <div class="services__card-data">
+                    <h2 class="services__card-title">Security</h2>
+                    <p class="services__card-description">Ensuring swift communication and quick solutions for all your rental needs.</p>
+                </div>
+              </div>              
             </div>
+             <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
-      <section class="reviews" id="reviews"></section>
+      <section class="reviews" id="reviews">
+        
+      </section>
       <section class="contact" id="contact"></section>
     </main>
     <footer class="footer" id="footer"></footer>
 
     <!-- SCRIPTS -->
     <!-- SWIPER SCRIPT -->
-    <script src=""></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
     <!-- SCROLLREVEAL SCRIPT -->
     <script src=""></script>
     <!-- MAIN SCRIPT -->
