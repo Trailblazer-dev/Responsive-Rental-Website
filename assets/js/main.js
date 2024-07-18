@@ -12,24 +12,20 @@ window.addEventListener('scroll', headerShadow);
 
 // Swiper
 
-const swiper = new Swiper(".services__content", {
+const swiper = new Swiper(".services__content,.reviews__content", {
   // Optional parameters
   direction: "horizontal",
   grabCursor: true,
   loop: true,
-  // centeredSlides: true,
-  // slidesPerView: 1,
+  centeredSlides: true,
+  slidesPerView: 1,
   //If we need pagination
   pagination: {
     el: ".swiper-pagination",
     dynamicBullets: true,
   },
   breakpoints: {
-    320: {
-      slidesPerView: 1,
-      spaceBetween: 15,
-    },
-    768: {
+    596: {
       slidesPerView: 2,
       spaceBetween: 20,
     },
