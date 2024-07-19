@@ -689,12 +689,44 @@ section{
     .nav__link-name{
         color: var(--nav-color);
     }
-    .active .nav__link-name{
-        border-bottom: 2px solid var(--nav-line-color);
-        transition: border .4s ease-in .2s  ;
-
-    }
+    .nav__link-name {
+    position: relative; /* Needed to position the pseudo-element */
+    color: var(--nav-color);
+    transition: opacity 0.3s, transform 0.3s; /* Adjust timing as needed */
 }
+.nav__link-name::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; /* Adjust based on your design */
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--nav-line-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s, opacity 0.3s; /* Adjust timing as needed */
+  opacity: 0; /* Start with the pseudo-element hidden */
+}
+
+
+/* Show underline on hover/focus */
+.nav__link-name:hover::after,
+.nav__link-name:focus::after {
+  opacity: 1; /* Make the pseudo-element fully visible */
+  transform: scaleX(1); /* Scale the pseudo-element to full width */
+}
+
+/* Ensure underline is visible for the active link */
+.nav__menu .active .nav__link-name::after {
+  opacity: 1; /* Make the pseudo-element fully visible */
+  transform: scaleX(1); 
+}
+}
+
+    
+    
+       
+
 
 /* large */
 @media screen and (min-width:1024px){
