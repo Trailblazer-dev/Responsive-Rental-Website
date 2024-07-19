@@ -40,12 +40,12 @@ const swiper = new Swiper(".services__content,.reviews__content", {
 
 const sections = document.querySelectorAll("section[id]");
 const scrollActive = () => {
-  const scrollY = window.pageYOffset;
+  const scrollY = window.scrollY;
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight,
-      sectionTop = current.offsetTop - 58,
+      sectionTop = current.offsetTop-200 ,
       sectionId = current.getAttribute("id");
-    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+    if (scrollY >= sectionTop && scrollY <= sectionTop + sectionHeight){
       document
         .querySelector('.nav__menu a[href*="#' + sectionId + '"]')
         .classList.add("active");
